@@ -1,0 +1,31 @@
+﻿Build started 9/29/2011 4:57:14 PM.
+     1>Project "E:\OBELISK\Obeloft\GLSL\HelloTriangle\Common\esUtil.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\esUtil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Source\Win32\esUtil_TGA.c Source\Win32\esUtil_win32.c Source\esShader.c Source\esShapes.c Source\esTransform.c Source\esUtil.c
+         esUtil.c
+         esTransform.c
+         esShapes.c
+         esShader.c
+         esUtil_win32.c
+         esUtil_TGA.c
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\OBELISK\Obeloft\GLSL\HelloTriangle\Common\lib\esUtil.lib) does not match the Library's OutputFile property value (E:\OBELISK\Obeloft\GLSL\HelloTriangle\Common\lib\esUtil_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(esUtil) does not match the Library's OutputFile property value (esUtil_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\esUtil_d.lib" /NOLOGO Debug\esUtil_TGA.obj
+         Debug\esUtil_win32.obj
+         Debug\esShader.obj
+         Debug\esShapes.obj
+         Debug\esTransform.obj
+         Debug\esUtil.obj
+         esUtil.vcxproj -> E:\OBELISK\Obeloft\GLSL\HelloTriangle\Common\lib\esUtil.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\esUtil.unsuccessfulbuild".
+         Touching "Debug\esUtil.lastbuildstate".
+     1>Done Building Project "E:\OBELISK\Obeloft\GLSL\HelloTriangle\Common\esUtil.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96
