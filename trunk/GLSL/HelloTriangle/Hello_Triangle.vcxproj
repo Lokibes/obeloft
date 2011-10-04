@@ -96,12 +96,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HelloTriangle.cpp" />
+    <ClCompile Include="ObjParser.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Common\esUtil.vcxproj">
       <Project>{47c93f52-ab4e-4ff9-8d4f-b38cd60a183f}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="betty_color.tga" />
+    <None Include="sarah_color.tga" />
+    <None Include="skybox_back.tga" />
+    <None Include="skybox_bottom.tga" />
+    <None Include="skybox_front.tga" />
+    <None Include="skybox_left.tga" />
+    <None Include="skybox_right.tga" />
+    <None Include="skybox_top.tga" />
+    <None Include="smurf_sprite.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjParser.h" />
+    <ClInclude Include="TextureLoader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
