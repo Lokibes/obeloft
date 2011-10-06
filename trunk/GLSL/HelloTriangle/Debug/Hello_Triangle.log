@@ -1,7 +1,0 @@
-﻿  HelloTriangle.cpp
-f:\hk 111\internship gameloft\obeloft\glsl\hellotriangle\load_shader.h(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-f:\hk 111\internship gameloft\obeloft\glsl\hellotriangle\load_shader.h(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-f:\hk 111\internship gameloft\obeloft\glsl\hellotriangle\load_shader.h(95): warning C4018: '<' : signed/unsigned mismatch
-  Hello_Triangle.vcxproj -> F:\HK 111\Internship Gameloft\Obeloft\GLSL\HelloTriangle\Debug\Hello_Triangle.exe
